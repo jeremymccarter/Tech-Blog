@@ -1,4 +1,24 @@
 {
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seeds": "node seeds"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremymccarter/Tech-Blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremymccarter/Tech-Blog/issues"
+  },
+  "homepage": "https://github.com/jeremymccarter/Tech-Blog#readme",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "connect-session-sequelize": "^7.1.5",
